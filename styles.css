@@ -1,0 +1,70 @@
+body {
+  background-color: blueviolet;
+  color: rgb(34, 252, 197);
+  font-family: "Rock Salt", cursive;
+  text-shadow: 6px 6px 5px rgb(12, 12, 12);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+  background: linear-gradient(135deg, #f9f9f9, #eaeaea);
+  border: 2px solid #02fa6a;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.5s, border-color 0.5s;
+  width: 400px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input,
+select {
+  border: 2px solid #f1f50c;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+input::placeholder {
+  color: #f1f50c;
+}
+
+.btn-primary {
+  background-color: #090e25;
+  border: none;
+}
+
+.btn-Light {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-Light:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark {
+  background-color: hsl(69, 56%, 67%);
+  color: #eee;
+}
+
+body.dark .container {
+  background: linear-gradient(135deg, #8fec14, #9103d3);
+  border-color: #10f12e;
+}
+
+body.dark input,
+body.dark select {
+  background-color: #e2e6ae;
+  color: #fff;
+
+  border: 2px solid #eb9f9c;
+}
+
+body.dark .btn-primary {
+  background-color: #22f874;
+}
